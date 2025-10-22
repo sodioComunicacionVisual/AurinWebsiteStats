@@ -1,0 +1,66 @@
+{
+  "url": "https://www.aurin.mx/terminosycondiciones",
+  "requestedUrl": "https://aurin.mx/terminosycondiciones",
+  "timestamp": 1761168727381,
+  "ranks": {
+    "hundos": 1,
+    "performance": 1,
+    "accessibility": 2,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "12.8.2",
+    "performance": 0.81,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 377
+  },
+  "firstContentfulPaint": 3739.5988,
+  "speedIndex": 3739.5988,
+  "largestContentfulPaint": 3739.5988,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 3739.5988000000007,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 77.522,
+  "weight": {
+    "summary": "36 requests • 402.9 KiB",
+    "total": 412590,
+    "image": 60129,
+    "imageCount": 3,
+    "script": 244534,
+    "scriptCount": 18,
+    "document": 13868,
+    "font": 64273,
+    "fontCount": 4,
+    "stylesheet": 10051,
+    "stylesheetCount": 4,
+    "thirdParty": 138921,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1,
+    "+weight.total": 4,
+    "-weight.document": 2,
+    "+weight.document": 3,
+    "-weight.script": 2,
+    "+weight.script": 3,
+    "-weight.image": 1,
+    "+weight.image": 3,
+    "-weight.font": 1,
+    "+weight.font": 3,
+    "+weight.fontCount": 2,
+    "-timeToFirstByte": 3,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 1
+  },
+  "axe": {
+    "passes": 499,
+    "violations": 13
+  }
+}

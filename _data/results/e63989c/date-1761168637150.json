@@ -1,0 +1,66 @@
+{
+  "url": "https://www.aurin.mx/en/",
+  "requestedUrl": "https://aurin.mx/en/",
+  "timestamp": 1761168956231,
+  "ranks": {
+    "hundos": 4,
+    "performance": 4,
+    "accessibility": 4,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "12.8.2",
+    "performance": 0.78,
+    "accessibility": 0.99,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 373
+  },
+  "firstContentfulPaint": 2586.1199999999994,
+  "speedIndex": 5614.0882112953,
+  "largestContentfulPaint": 2717.6419999999994,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.20770284842574172,
+  "timeToInteractive": 2717.6419999999994,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 76.51299999999998,
+  "weight": {
+    "summary": "55 requests • 1.2 MiB",
+    "total": 1297771,
+    "image": 906372,
+    "imageCount": 15,
+    "script": 262312,
+    "scriptCount": 23,
+    "document": 17408,
+    "font": 77456,
+    "fontCount": 5,
+    "stylesheet": 14240,
+    "stylesheetCount": 5,
+    "thirdParty": 998935,
+    "thirdPartyCount": 5
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 4,
+    "+weight.total": 2,
+    "-weight.document": 4,
+    "+weight.document": 2,
+    "-weight.script": 4,
+    "+weight.script": 2,
+    "-weight.image": 4,
+    "+weight.image": 2,
+    "-weight.font": 3,
+    "+weight.font": 1,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 1,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 1
+  },
+  "axe": {
+    "passes": 777,
+    "violations": 7
+  }
+}

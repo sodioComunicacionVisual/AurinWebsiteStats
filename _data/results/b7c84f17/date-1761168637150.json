@@ -1,0 +1,66 @@
+{
+  "url": "https://www.aurin.mx/contacto",
+  "requestedUrl": "https://aurin.mx/contacto",
+  "timestamp": 1761169217644,
+  "ranks": {
+    "hundos": 3,
+    "performance": 2,
+    "accessibility": 2,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "12.8.2",
+    "performance": 0.79,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 375
+  },
+  "firstContentfulPaint": 3841.645,
+  "speedIndex": 3841.645,
+  "largestContentfulPaint": 3841.645,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0022384039696072325,
+  "timeToInteractive": 3841.6450000000004,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 75.738,
+  "weight": {
+    "summary": "38 requests • 428.4 KiB",
+    "total": 438710,
+    "image": 56264,
+    "imageCount": 2,
+    "script": 261428,
+    "scriptCount": 20,
+    "document": 13581,
+    "font": 76782,
+    "fontCount": 5,
+    "stylesheet": 10998,
+    "stylesheetCount": 4,
+    "thirdParty": 147566,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1,
+    "+weight.total": 5,
+    "-weight.document": 1,
+    "+weight.document": 5,
+    "-weight.script": 3,
+    "+weight.script": 3,
+    "-weight.image": 1,
+    "+weight.image": 5,
+    "-weight.font": 1,
+    "+weight.font": 4,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 4,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 3
+  },
+  "axe": {
+    "passes": 367,
+    "violations": 3
+  }
+}
