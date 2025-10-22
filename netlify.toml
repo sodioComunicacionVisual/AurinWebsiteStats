@@ -1,9 +1,18 @@
 [build]
   publish = "_site"
-  command = "npm run build-production"
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_VERSION = "9"
+  PUPPETEER_SKIP_CHROMIUM_DOWNLOAD = "true"
+  PUPPETEER_EXECUTABLE_PATH = "/usr/bin/google-chrome-stable"
 
 [[plugins]]
 package = "./plugins/keep-data-cache"
+
+[[plugins]]
+package = "netlify-plugin-chromium"
 
 [[headers]]
   for = "/api/*"
@@ -15,12 +24,3 @@ package = "./plugins/keep-data-cache"
   to = "https://www.speedlify.dev"
   status = 301
   force = true
-
-[context.branch-deploy.environment]
-  PUPPETEER_CACHE_DIR = "/opt/build/repo/node_modules/.cache/puppeteer-bin/"
-
-[context.deploy-preview.environment]
-  PUPPETEER_CACHE_DIR = "/opt/build/repo/node_modules/.cache/puppeteer-bin/"
-
-[context.production.environment]
-  PUPPETEER_CACHE_DIR = "/opt/build/repo/node_modules/.cache/puppeteer-bin/"
